@@ -253,21 +253,23 @@ graph TB
 ## 🗺️ 完整六步流程图
 
 ```mermaid
-flowchart TD
-    Start[开始] --> Step1[第一步：确定主题 + AI生成分页脚本]
-    Step1 --> Step2[第二步：新建PPT + 简单填充内容]
-    Step2 --> Step3[第三步：收集资料]
-    Step3 --> Step4[第四步：生图模型排版]
-    Step4 --> Step4a[挑选最佳排版]
-    Step4a --> Step4b[提取背景]
-    Step4b --> Step4c[提取配色]
-    Step4c --> Step5[第五步：复刻到PPT]
-    Step5 --> Step6[第六步：最终合成]
-    Step6 --> Check[检查清单]
-    Check --> End[交付成品]
+flowchart LR
+    Start([▶ 开始]) --> S1[📝 第一步<br/>确定主题 + AI生成脚本]
+    S1 --> S2[💻 第二步<br/>新建PPT + 简单填充]
+    S2 --> S3[📚 第三步<br/>收集资料]
+    S3 --> S4[🎨 第四步<br/>生图模型排版]
+    S4 --> S5[🔄 第五步<br/>复刻到PPT]
+    S5 --> S6[✨ 第六步<br/>最终合成]
+    S6 --> End([🏁 交付成品])
 
-    style Step4 fill:#f9f,stroke:#333,stroke-width:2px
-    style Step5 fill:#bbf,stroke:#333,stroke-width:2px
+    style Start fill:#4CAF50,stroke:#388E3C,stroke-width:3px,color:#fff
+    style End fill:#F44336,stroke:#D32F2F,stroke-width:3px,color:#fff
+    style S1 fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
+    style S2 fill:#03A9F4,stroke:#0288D1,stroke-width:2px,color:#fff
+    style S3 fill:#00BCD4,stroke:#0097A7,stroke-width:2px,color:#fff
+    style S4 fill:#9C27B0,stroke:#7B1FA2,stroke-width:3px,color:#fff
+    style S5 fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
+    style S6 fill:#FF5722,stroke:#E64A19,stroke-width:2px,color:#fff
 ```
 
 ---
@@ -288,7 +290,7 @@ flowchart TD
 
 - ChatGPT 官方文档：https://platform.openai.com/docs
 - Midjourney 使用指南：https://docs.midjourney.com
-- PPT设计原则：https://support.microsoft.com/zh-cn/powerpoint
+- 中转站链接：https://sorryios.ai/
 
 ---
 
