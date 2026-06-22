@@ -6,7 +6,7 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "dianddiai 的博客",
+	title: "Fansanqian 的博客",
 
 	// 站点副标题
 	subtitle: "记录vibecoding",
