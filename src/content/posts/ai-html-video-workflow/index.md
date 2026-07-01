@@ -5,7 +5,7 @@ description: 记录一个基于 MiniMax TTS、智能分镜和 HyperFrames 的 HT
 image: './assets/qunhe-video-frame.png'
 tags: [AI, HTML视频, HyperFrames, TTS, 自动化工作流]
 category: AI 工具实践
-draft: true
+draft: false
 lang: zh-CN
 ---
 
