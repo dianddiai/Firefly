@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs>
+    <style>
+      .bg{fill:#f6f7f9}
+      .title{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:44px;font-weight:800;fill:#111827}
+      .sub{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:22px;font-weight:600;fill:#5b6472}
+      .box{fill:#fff;stroke:#d8dde6;stroke-width:2}
+      .box2{fill:#eef4ff;stroke:#8eb4ff;stroke-width:2}
+      .box3{fill:#fff8df;stroke:#f0c94b;stroke-width:2}
+      .label{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:26px;font-weight:800;fill:#111827}
+      .note{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:18px;font-weight:600;fill:#687385}
+      .arrow{stroke:#2f6df6;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .line{stroke:#d8dde6;stroke-width:2}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2f6df6"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1400" height="760"/>
+  <text class="title" x="70" y="86">AI 自动生成 HTML 视频工作流</text>
+  <text class="sub" x="70" y="126">从资讯终稿到竖屏 MP4，中间层不是剪辑工程，而是一套可编程的内容生产流水线。</text>
+
+  <rect class="box" x="70" y="190" width="185" height="118" rx="22"/>
+  <text class="label" x="103" y="240">终稿内容</text>
+  <text class="note" x="103" y="275">标题 / 摘要 / 正文</text>
+
+  <rect class="box2" x="310" y="190" width="185" height="118" rx="22"/>
+  <text class="label" x="343" y="240">结构拆分</text>
+  <text class="note" x="343" y="275">开场 / 事实 / 影响</text>
+
+  <rect class="box" x="550" y="190" width="185" height="118" rx="22"/>
+  <text class="label" x="583" y="240">HTML 卡片</text>
+  <text class="note" x="583" y="275">1080 x 1920 PNG</text>
+
+  <rect class="box3" x="790" y="190" width="185" height="118" rx="22"/>
+  <text class="label" x="823" y="240">口播稿</text>
+  <text class="note" x="823" y="275">新闻解读风格</text>
+
+  <rect class="box" x="1030" y="190" width="185" height="118" rx="22"/>
+  <text class="label" x="1063" y="240">SRT + 配音</text>
+  <text class="note" x="1063" y="275">时间轴对齐</text>
+
+  <path class="arrow" d="M255 249 H305"/>
+  <path class="arrow" d="M495 249 H545"/>
+  <path class="arrow" d="M735 249 H785"/>
+  <path class="arrow" d="M975 249 H1025"/>
+
+  <rect class="box2" x="430" y="435" width="250" height="138" rx="24"/>
+  <text class="label" x="472" y="490">视频合成</text>
+  <text class="note" x="472" y="526">图片翻页 + 字幕烧录</text>
+  <text class="note" x="472" y="556">优先保证稳定可读</text>
+
+  <rect class="box3" x="750" y="435" width="250" height="138" rx="24"/>
+  <text class="label" x="792" y="490">质量检查</text>
+  <text class="note" x="792" y="526">声音 / 字幕 / 分辨率</text>
+  <text class="note" x="792" y="556">黑屏与时长检测</text>
+
+  <rect class="box" x="1070" y="435" width="250" height="138" rx="24"/>
+  <text class="label" x="1112" y="490">最终 MP4</text>
+  <text class="note" x="1112" y="526">可下载 / 可复用</text>
+  <text class="note" x="1112" y="556">后续可发布</text>
+
+  <path class="arrow" d="M1122 308 C1122 370 555 370 555 430"/>
+  <path class="arrow" d="M680 504 H745"/>
+  <path class="arrow" d="M1000 504 H1065"/>
+
+  <line class="line" x1="70" y1="650" x2="1320" y2="650"/>
+  <text class="note" x="70" y="695">核心判断：HTML/CSS 负责画面结构，SRT 负责时间轴，TTS 负责声音，FFmpeg 负责最终合成。</text>
+</svg>

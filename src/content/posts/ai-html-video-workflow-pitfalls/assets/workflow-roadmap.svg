@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs>
+    <style>
+      .bg{fill:#f6f7f9}
+      .title{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:44px;font-weight:800;fill:#111827}
+      .sub{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:22px;font-weight:600;fill:#5b6472}
+      .box{fill:#fff;stroke:#d9dee7;stroke-width:2}
+      .now{fill:#eff7ff;stroke:#82b6ff;stroke-width:2}
+      .next{fill:#fff8df;stroke:#f0c94b;stroke-width:2}
+      .label{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:26px;font-weight:800;fill:#111827}
+      .text{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:18px;font-weight:650;fill:#5b6472}
+      .line{stroke:#2f6df6;stroke-width:4;fill:none}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="760"/>
+  <text class="title" x="70" y="86">下一步：从“能跑通”走向“能长期用”</text>
+  <text class="sub" x="70" y="126">自动化不是一次做完，而是把每个模块变成可替换、可检查、可迭代的系统。</text>
+
+  <path class="line" d="M170 380 H1230"/>
+
+  <rect class="now" x="100" y="250" width="230" height="180" rx="26"/>
+  <text class="label" x="145" y="315">当前已跑通</text>
+  <text class="text" x="145" y="360">终稿到视频闭环</text>
+
+  <rect class="box" x="390" y="250" width="230" height="180" rx="26"/>
+  <text class="label" x="435" y="315">模板系统</text>
+  <text class="text" x="435" y="360">多套 HTML 卡片</text>
+
+  <rect class="box" x="680" y="250" width="230" height="180" rx="26"/>
+  <text class="label" x="725" y="315">素材匹配</text>
+  <text class="text" x="725" y="360">本地图 + 公开图库</text>
+
+  <rect class="next" x="970" y="250" width="230" height="180" rx="26"/>
+  <text class="label" x="1015" y="315">质量检查</text>
+  <text class="text" x="1015" y="360">黑屏 / 声音 / 字幕</text>
+
+  <rect class="box" x="245" y="500" width="230" height="150" rx="26"/>
+  <text class="label" x="290" y="560">TTS 升级</text>
+  <text class="text" x="290" y="605">更自然的配音</text>
+
+  <rect class="box" x="585" y="500" width="230" height="150" rx="26"/>
+  <text class="label" x="630" y="560">视频引擎</text>
+  <text class="text" x="630" y="605">预留外部适配器</text>
+
+  <rect class="box" x="925" y="500" width="230" height="150" rx="26"/>
+  <text class="label" x="970" y="560">多端内容</text>
+  <text class="text" x="970" y="605">博客 / 图文 / 视频</text>
+</svg>
