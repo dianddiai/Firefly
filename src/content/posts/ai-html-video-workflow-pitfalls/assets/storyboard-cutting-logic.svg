@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs>
+    <style>
+      .bg{fill:#fbfbfc}
+      .title{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:44px;font-weight:800;fill:#111827}
+      .sub{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:22px;font-weight:600;fill:#5b6472}
+      .bad{fill:#fff1f0;stroke:#ff9b91;stroke-width:2}
+      .good{fill:#eff7ff;stroke:#82b6ff;stroke-width:2}
+      .node{fill:#fff;stroke:#d9dee7;stroke-width:2}
+      .label{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:28px;font-weight:800;fill:#111827}
+      .text{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:22px;font-weight:700;fill:#374151}
+      .small{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:18px;font-weight:600;fill:#6b7280}
+      .arrow{stroke:#2f6df6;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2f6df6"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1400" height="760"/>
+  <text class="title" x="70" y="86">坑六：分镜不能按字幕条数硬切</text>
+  <text class="sub" x="70" y="126">字幕是声音切片，分镜是信息组织。两者相关，但不是同一个东西。</text>
+
+  <rect class="bad" x="80" y="190" width="520" height="420" rx="28"/>
+  <text class="label" x="130" y="255">机械切法</text>
+  <rect class="node" x="130" y="300" width="400" height="62" rx="14"/>
+  <text class="text" x="165" y="340">每 3-5 条字幕切一页</text>
+  <rect class="node" x="130" y="386" width="400" height="62" rx="14"/>
+  <text class="text" x="165" y="426">观点可能被拆断</text>
+  <rect class="node" x="130" y="472" width="400" height="62" rx="14"/>
+  <text class="text" x="165" y="512">页面像自动分页</text>
+
+  <path class="arrow" d="M625 400 H760"/>
+
+  <rect class="good" x="790" y="190" width="520" height="420" rx="28"/>
+  <text class="label" x="840" y="255">语义切法</text>
+  <rect class="node" x="840" y="300" width="390" height="56" rx="14"/>
+  <text class="text" x="875" y="337">开场：一句话判断</text>
+  <rect class="node" x="840" y="368" width="390" height="56" rx="14"/>
+  <text class="text" x="875" y="405">背景：为什么发生</text>
+  <rect class="node" x="840" y="436" width="390" height="56" rx="14"/>
+  <text class="text" x="875" y="473">事实：关键变化</text>
+  <rect class="node" x="840" y="504" width="390" height="56" rx="14"/>
+  <text class="text" x="875" y="541">影响 / 风险 / 结尾</text>
+
+  <text class="small" x="80" y="685">解决方案：先按内容结构切，再用口播时长调整每页停留时间。</text>
+</svg>

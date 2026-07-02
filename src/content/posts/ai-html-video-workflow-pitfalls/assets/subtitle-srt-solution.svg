@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs>
+    <style>
+      .bg{fill:#f6f7f9}
+      .title{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:44px;font-weight:800;fill:#111827}
+      .sub{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:22px;font-weight:600;fill:#5b6472}
+      .card{fill:#fff;stroke:#d9dee7;stroke-width:2}
+      .safe{fill:#eef3ff;stroke:#79a8ff;stroke-width:2}
+      .caption{fill:#111827}
+      .label{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:28px;font-weight:800;fill:#111827}
+      .text{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:22px;font-weight:650;fill:#374151}
+      .small{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:18px;font-weight:600;fill:#6b7280}
+      .arrow{stroke:#2f6df6;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2f6df6"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1400" height="760"/>
+  <text class="title" x="70" y="86">坑二：字幕不能写死在图片里</text>
+  <text class="sub" x="70" y="126">图片负责画面，字幕交给 SRT 和视频阶段；这样才能跟配音严格同步。</text>
+
+  <rect class="card" x="120" y="190" width="360" height="500" rx="28"/>
+  <text class="label" x="170" y="260">旧做法</text>
+  <text class="text" x="170" y="320">图片底部直接写字幕</text>
+  <text class="small" x="170" y="380">容易截断</text>
+  <text class="small" x="170" y="420">不能精确跟声音同步</text>
+  <text class="small" x="170" y="460">正文和字幕互相抢空间</text>
+  <rect class="caption" x="150" y="570" width="300" height="72" rx="16"/>
+  <text class="small" x="176" y="615" fill="#fff">字幕被固定在图片上...</text>
+
+  <path class="arrow" d="M520 440 H695"/>
+
+  <rect class="card" x="735" y="190" width="520" height="500" rx="28"/>
+  <text class="label" x="790" y="260">新做法</text>
+  <text class="text" x="790" y="318">完整口播稿 -> TTS -> SRT</text>
+  <text class="text" x="790" y="360">视频阶段再烧录字幕</text>
+  <rect class="safe" x="790" y="480" width="410" height="110" rx="18"/>
+  <text class="small" x="826" y="525">图片只预留字幕安全区</text>
+  <text class="small" x="826" y="560">不提前写死字幕内容</text>
+  <text class="small" x="790" y="650">收益：字幕完整、可替换、可校正，也不破坏卡片排版。</text>
+</svg>

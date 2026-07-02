@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs>
+    <style>
+      .bg{fill:#fbfbfc}
+      .title{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:44px;font-weight:800;fill:#111827}
+      .sub{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:22px;font-weight:600;fill:#5b6472}
+      .box{fill:#fff;stroke:#d9dee7;stroke-width:2}
+      .active{fill:#eff7ff;stroke:#82b6ff;stroke-width:2}
+      .future{fill:#fff8df;stroke:#f0c94b;stroke-width:2}
+      .label{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:28px;font-weight:800;fill:#111827}
+      .text{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-size:20px;font-weight:650;fill:#4b5563}
+      .arrow{stroke:#2f6df6;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2f6df6"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1400" height="760"/>
+  <text class="title" x="70" y="86">TTS 不是一次性选择，而应该做成适配器</text>
+  <text class="sub" x="70" y="126">先用 edge-tts 跑通闭环，再替换成更自然、更可控的商业 TTS。</text>
+
+  <rect class="box" x="100" y="230" width="240" height="160" rx="26"/>
+  <text class="label" x="145" y="290">口播稿</text>
+  <text class="text" x="145" y="335">新闻解读风格</text>
+
+  <rect class="active" x="430" y="230" width="260" height="160" rx="26"/>
+  <text class="label" x="475" y="290">edge-tts</text>
+  <text class="text" x="475" y="335">第一版兜底方案</text>
+
+  <rect class="future" x="780" y="230" width="260" height="160" rx="26"/>
+  <text class="label" x="825" y="290">MiniMax / 阿里</text>
+  <text class="text" x="825" y="335">后续升级方案</text>
+
+  <rect class="box" x="1130" y="230" width="180" height="160" rx="26"/>
+  <text class="label" x="1170" y="290">SRT</text>
+  <text class="text" x="1170" y="335">字幕时间轴</text>
+
+  <path class="arrow" d="M340 310 H425"/>
+  <path class="arrow" d="M690 310 H775"/>
+  <path class="arrow" d="M1040 310 H1125"/>
+
+  <rect class="box" x="180" y="510" width="1040" height="100" rx="24"/>
+  <text class="text" x="230" y="570">判断标准：能稳定生成、能输出时间轴、口播自然、失败可记录、后续可替换。</text>
+</svg>
